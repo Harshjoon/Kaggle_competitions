@@ -1,0 +1,18 @@
+
+
+
+DATASET DESCRIPTION
+
+- train_data.csv
+    - sequence_id       : string    : An arbitrary identifier
+    - sequence          : string    : Describes RNA sequence A,C,G,U.
+    - experiment_type   : string    : Type of chemical mapping experiment.
+    - dataset_name      : string    : arbitrary dataset_name
+    - reads             : integer   : Number of reads in the high throughput sequencing experiment that were assigned to the RNA sequence
+    - signal_to_noise   : float     : signal/noise for profile
+    - SN_filter         : Boolean   : depends on signal_to_noise and reads value
+    - reactivity_0001, reactivity_0002,…
+                        : float     : An array of floating point numbers, should have same length as rna sequence,
+                                        Which defines reactivity profile for the RNA. 
+    - reactivity_error_0001, reactivity_error_0002,…
+                        : float     : Calculated errors in experimental values obtained
