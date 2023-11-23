@@ -1,7 +1,7 @@
 
 
 
-DATASET DESCRIPTION
+DATASET DESCRIPTION -----------------------------------------------------------------------------------
 
 - train_data.csv
     - sequence_id       : string    : An arbitrary identifier
@@ -15,4 +15,23 @@ DATASET DESCRIPTION
                         : float     : An array of floating point numbers, should have same length as rna sequence,
                                         Which defines reactivity profile for the RNA. 
     - reactivity_error_0001, reactivity_error_0002,…
-                        : float     : Calculated errors in experimental values obtained
+                        : float     : Calculated errors in experimental values obtained.
+
+- train_data_QUICK_START.csv : filtered version of train_data.csv
+
+
+- sample_submission.csv      : sample submition file in correct format.
+
+- test_sequences.csv         : the test set sequences, without any columns associated with the ground truth.
+
+
+
+ADDITIONAL RESOURCES ----------------------------------------------------------------------------------
+
+- https://www.pnas.org/doi/10.1073/pnas.2112677119
+- https://www.biorxiv.org/content/10.1101/2023.04.25.538330v2
+- https://www.youtube.com/watch?v=oe-w1Xx1p1g
+- https://www.nature.com/articles/s41592-022-01605-0
+- https://eternagame.org/challenges/11843006
+- https://www.youtube.com/watch?v=PDI7wsdjtt0
+- https://www.nature.com/articles/s42256-022-00571-8
